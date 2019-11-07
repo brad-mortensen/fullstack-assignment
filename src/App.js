@@ -3,7 +3,7 @@ import UserAssignments from "./components/UserAssignments";
 import CompanyForm from "./components/CompanyForm";
 import UserForm from "./components/UserForm";
 
-export default () => {
+const App = () => {
   const [company, setCompany] = useState('');
   const [user, setUser] = useState('');
 
@@ -15,3 +15,5 @@ export default () => {
     </>
   )
 };
+
+export default App;

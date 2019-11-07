@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default () => {
+const CompanyForm = () => {
   return (
     <div>
-      
+
     </div>
   )
 }
+
+export default CompanyForm;

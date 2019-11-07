@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => {
+const UserAssignments = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ export default () => {
   )
 }
 
-
+export default UserAssignments;
